@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { INITIAL_STATE } from './data/initialState'
+import { INITIAL_STATE, AppState } from './data/initialState'
 
 function App() {
-  const [exams, setExams] = useState(INITIAL_STATE)
+  const [exams, setExams] = useState<AppState>(INITIAL_STATE)
   return (
     <div className="app-container">
       <h1>ExamFlow</h1>
