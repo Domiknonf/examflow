@@ -11,11 +11,11 @@ lerna-debug.log*
 node_modules
 .pnpm-store
 
-# Build Output (Das Ergebnis von 'npm run build')
+# Build Output
 dist
 dist-ssr
 
-# Local Environment & Secrets (WICHTIG!)
+# Local Environment & Secrets
 *.local
 .env
 .env.development.local
@@ -36,5 +36,5 @@ dist-ssr
 # Testing
 coverage
 
-# Lokale Configs (Dein Registry-Hack)
+# npmrc
 .npmrc
